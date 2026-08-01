@@ -71,7 +71,7 @@ const PostListing = () => {
   const [loadingListing, setLoadingListing] = useState(isEdit);
 
   useEffect(() => {
-    document.title = isEdit ? "Edit listing - Céilí Melbourne" : "Make a post - Céilí Melbourne";
+    document.title = isEdit ? "Edit listing - Céilí Perth" : "Make a post - Céilí Perth";
   }, [isEdit]);
 
   useEffect(() => {
@@ -222,15 +222,15 @@ const PostListing = () => {
 
   const placeholders: Record<CategoryKey, { title: string; description: string }> = {
     room: {
-      title: "e.g. Sunny double room in Fitzroy - Irish household",
+      title: "e.g. Sunny double room in Subiaco - Irish household",
       description: "Tell people about the room and house - size, furnished or not, who else lives there, bills included, bond, available from, close to which beach/train, house vibe (quiet, social, GAA crowd…).",
     },
     sublet: {
-      title: "e.g. 6-week sublet in Collingwood - fully furnished",
+      title: "e.g. 6-week sublet in Fremantle - fully furnished",
       description: "Dates available, weekly rent, whether bills are included, type of place (studio, room in share), what's nearby, and why you're subletting (going home for Chrissy, travelling, etc.).",
     },
     lease_takeover: {
-      title: "e.g. Lease takeover - 2-bed apartment in St Kilda until Aug",
+      title: "e.g. Lease takeover - 2-bed apartment in Northbridge until Aug",
       description: "Lease end date, weekly rent, bond, what's included, building features, why you're leaving, and any agent/landlord requirements for the takeover.",
     },
     job: {
@@ -243,7 +243,7 @@ const PostListing = () => {
     },
     service: {
       title: "e.g. Two Irish lads with a ute - moves & rubbish runs",
-      description: "What you offer, areas you cover in Melbourne, rates, availability, insurance/qualifications, and how to book you.",
+      description: "What you offer, areas you cover in Perth, rates, availability, insurance/qualifications, and how to book you.",
     },
     event: {
       title: "e.g. Trad session at the Mercantile - Sunday arvo",
@@ -264,11 +264,11 @@ const PostListing = () => {
     description: "Dates you need it for, your budget per week, area preferences, how many people, and anything else useful (furnished, bills included, etc.).",
   },
   lease_takeover: {
-    title: "e.g. Looking to take over a lease in Richmond from August",
+    title: "e.g. Looking to take over a lease in Victoria Park from August",
     description: "When you need to move in, how long you're looking to stay, your budget, preferred area, and any requirements around bond or agent approval.",
   },
   job: {
-    title: "e.g. Experienced chef looking for work in Melbourne CBD",
+    title: "e.g. Experienced chef looking for work in Perth CBD",
     description: "Tell people about yourself - experience, availability, visa type, what kind of role you're after and your preferred area.",
   },
   for_sale: {
@@ -413,7 +413,7 @@ const PostListing = () => {
               </div>
               <div className="space-y-2">
                 <Label htmlFor="suburb">Suburb</Label>
-                <Input id="suburb" name="suburb" maxLength={80} defaultValue={defaults.suburb} placeholder="e.g. Fitzroy" />
+                <Input id="suburb" name="suburb" maxLength={80} defaultValue={defaults.suburb} placeholder="e.g. Subiaco" />
               </div>
             </div>
 

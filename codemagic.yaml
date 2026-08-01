@@ -1,6 +1,6 @@
 workflows:
   ios-release:
-    name: Melbourne Céilí – iOS Release
+    name: Perth Céilí – iOS Release
     max_build_duration: 60
     instance_type: mac_mini_m2
     environment:
@@ -9,9 +9,9 @@ workflows:
       vars:
         APP_STORE_CONNECT_ISSUER_ID: "10e891a6-bffb-41bd-add3-a198ed9016b1"
         APP_STORE_CONNECT_KEY_IDENTIFIER: "SCA5JFXA3W"
-        BUNDLE_ID: "com.ceilimelbourne.app"
-        VITE_SUPABASE_URL: "https://bmwxdgadmondpjagikxg.supabase.co"
-        VITE_SUPABASE_PUBLISHABLE_KEY: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJtd3hkZ2FkbW9uZHBqYWdpa3hnIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODMzOTU0MjUsImV4cCI6MjA5ODk3MTQyNX0.Ta6xT_fXAWkff1v2Hk44hta3qReULKWp8JAFD8-Ei_E"
+        BUNDLE_ID: "com.ceiliperth.app"
+        VITE_SUPABASE_URL: "PLACEHOLDER_SUPABASE_URL_PERTH"
+        VITE_SUPABASE_PUBLISHABLE_KEY: "PLACEHOLDER_SUPABASE_ANON_KEY_PERTH"
       node: latest
       xcode: latest
       cocoapods: default
@@ -48,7 +48,7 @@ workflows:
           xcode-project build-ipa \
             --project ios/App/App.xcodeproj \
             --scheme App \
-            --archive-xcargs "DEVELOPMENT_TEAM=PCC7BY299F CODE_SIGN_IDENTITY='Apple Distribution' PROVISIONING_PROFILE_SPECIFIER='Céilí Melbourne App Store'" \
+            --archive-xcargs "DEVELOPMENT_TEAM=PCC7BY299F CODE_SIGN_IDENTITY='Apple Distribution' PROVISIONING_PROFILE_SPECIFIER='Céilí Perth App Store'" \
             --disable-xcpretty
     artifacts:
       - build/ios/ipa/*.ipa

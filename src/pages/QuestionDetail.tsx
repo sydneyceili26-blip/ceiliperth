@@ -46,7 +46,7 @@ const QuestionDetail = () => {
     const { data: qu, error } = await supabase.from("questions").select("*").eq("id", id).maybeSingle();
     if (error || !qu) { setNotFound(true); setLoading(false); return; }
     setQuestion(qu as Question);
-    document.title = `${(qu as Question).title} - Céilí Melbourne`;
+    document.title = `${(qu as Question).title} - Céilí Perth`;
     const { data: ans } = await supabase
       .from("answers")
       .select("*")

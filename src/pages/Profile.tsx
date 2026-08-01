@@ -30,7 +30,7 @@ const Profile = () => {
   const [deleting, setDeleting] = useState(false);
 
   useEffect(() => {
-    document.title = "Your profile - Céilí Melbourne";
+    document.title = "Your profile - Céilí Perth";
   }, []);
 
   useEffect(() => {

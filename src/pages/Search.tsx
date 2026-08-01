@@ -15,7 +15,7 @@ const Search = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    document.title = q ? `“${q}” - Céilí Melbourne search` : "Search - Céilí Melbourne";
+    document.title = q ? `“${q}” - Céilí Perth search` : "Search - Céilí Perth";
   }, [q]);
 
   useEffect(() => {

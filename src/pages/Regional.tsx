@@ -50,7 +50,7 @@ const Regional = () => {
   const [region, setRegion] = useState("all");
 
   useEffect(() => {
-    document.title = "Regional Work - Céilí Melbourne";
+    document.title = "Regional Work - Céilí Perth";
     (async () => {
       const { data: rows } = await supabase
         .from("regional_posts")

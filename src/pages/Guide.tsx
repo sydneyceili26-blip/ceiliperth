@@ -8,7 +8,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 
 const Guide = () => {
   useEffect(() => {
-    document.title = "Newcomer's Guide - Céilí Melbourne";
+    document.title = "Newcomer's Guide - Céilí Perth";
   }, []);
 
   return (
@@ -21,15 +21,15 @@ const Guide = () => {
             <Heart className="h-3.5 w-3.5" /> For everyone settling in
           </span>
           <h1 className="mt-4 font-display text-4xl font-bold leading-tight md:text-5xl">
-            Your Melbourne starter guide
+            Your Perth starter guide
           </h1>
           <p className="mt-3 text-lg text-muted-foreground">
-            Practical tips for finding housing, work and friends in Melbourne - and staying safe along the way.
+            Practical tips for finding housing, work and friends in Perth - and staying safe along the way.
           </p>
         </header>
 
         <section className="mx-auto mt-12 max-w-4xl">
-          <h2 className="font-display text-2xl font-semibold">Stay safe on Céilí Melbourne</h2>
+          <h2 className="font-display text-2xl font-semibold">Stay safe on Céilí Perth</h2>
           <div className="mt-4 grid gap-4 sm:grid-cols-2">
             <SafetyCard
               icon={Shield}
@@ -66,7 +66,7 @@ const Guide = () => {
             <Tile
               icon={Home}
               title="Finding a room"
-              body="Melbourne's rental market moves fast. Most share houses go via inspection — bring ID and references if you have them. Tram and train access is worth factoring in."
+              body="Perth's rental market moves fast. Most share houses go via inspection — bring ID and references if you have them. Transperth bus and train access is worth factoring in."
               to="/c/housing"
               cta="Browse housing"
             />
@@ -80,7 +80,7 @@ const Guide = () => {
             <Tile
               icon={Users}
               title="Meeting people"
-              body="GAA clubs, trad sessions, footy crowds, live music and comedy nights — Melbourne has a tribe for everyone, and the social scene rivals anywhere in the world."
+              body="GAA clubs, trad sessions, footy crowds, live music and comedy nights — Perth has a tribe for everyone, and the social scene rivals anywhere in the world."
               to="/c/social"
               cta="Browse social"
             />
@@ -91,9 +91,9 @@ const Guide = () => {
           <h2 className="font-display text-2xl font-semibold">Posting a great listing</h2>
           <ul className="mt-4 grid gap-3 text-sm md:grid-cols-2">
             {[
-              "Use a clear, specific title (e.g. \"Sunny double room in Fitzroy - $280/wk incl. bills\")",
+              "Use a clear, specific title (e.g. \"Sunny double room in Subiaco - $280/wk incl. bills\")",
               "Add 3–6 real photos taken on your phone, in natural light",
-              "Mention the suburb, nearest train/bus, and any move-in date",
+              "Mention the suburb, nearest Transperth stop, and any move-in date",
               "Be upfront about bills, bond, lease length and house rules",
               "Reply quickly - most newcomers message 5+ posts at once",
               "Mark your listing as taken (or delete it) when you're sorted",
@@ -178,20 +178,20 @@ const Tile = ({ icon: Icon, title, body, to, cta }: { icon: any; title: string; 
 );
 
 const SUBURBS = [
-  { name: "Fitzroy & Collingwood", note: "Trendy, artsy, great cafés and bars. Short tram ride to the CBD and a big Irish presence." },
-  { name: "St Kilda", note: "Beachy and social. Strong Irish/UK community, good trams and a great vibe for newcomers." },
-  { name: "Brunswick & Coburg", note: "Multicultural, affordable and creative. Big music and food scene north of the city." },
-  { name: "Richmond & Prahran", note: "Café culture, close to the MCG and Chapel Street. Great tram and train access." },
-  { name: "South Yarra & Toorak", note: "Upmarket and polished, close to the arts precinct. Pricier, but central and well-connected." },
-  { name: "Footscray & West", note: "Best value rent close to the city. Vibrant multicultural community and improving fast." },
+  { name: "Subiaco & Shenton Park", note: "Lively, walkable and close to the CBD. Great café strip and strong community feel — popular with newcomers." },
+  { name: "Fremantle", note: "Artsy and beachy with a real bohemian energy. Strong Irish/UK crowd, live music and a cracking pub scene." },
+  { name: "Northbridge & Mt Lawley", note: "Perth's entertainment hub. Bars, restaurants and music venues on the doorstep — ideal if you want to be in the thick of it." },
+  { name: "Victoria Park & Burswood", note: "Affordable, multicultural and well-connected by train and bus. Great food scene along Albany Hwy." },
+  { name: "Cottesloe & Claremont", note: "Beachside and upmarket. Pricier, but stunning beaches and a relaxed coastal lifestyle." },
+  { name: "Midland & Bassendean", note: "Best value rent near the city. Good Transperth rail links and a friendly local community." },
 ];
 
 const FAQS = [
-  { q: "Is Céilí Melbourne free to use?", a: "Yes - posting and browsing are completely free." },
+  { q: "Is Céilí Perth free to use?", a: "Yes - posting and browsing are completely free." },
   { q: "Do I need an account?", a: "You can browse without one. An account lets you save favourites, manage your listings and report scams." },
   { q: "How long do listings stay up?", a: "60 days by default. You can renew yours for another 60 days from the My posts page anytime." },
   { q: "I'm being scammed - what do I do?", a: "Hit Report on the listing, stop all contact, and never send money. If you've already paid, contact your bank immediately and report it to Scamwatch (scamwatch.gov.au)." },
-  { q: "Who runs Céilí Melbourne?", a: "A small team of newcomers who got tired of dodgy Facebook groups. We're community-first and listening - drop us a line anytime." },
+  { q: "Who runs Céilí Perth?", a: "A small team of newcomers who got tired of dodgy Facebook groups. We're community-first and listening - drop us a line anytime." },
 ];
 
 export default Guide;

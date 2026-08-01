@@ -7,7 +7,7 @@ const NotFound = () => {
   const location = useLocation();
 
   useEffect(() => {
-    document.title = "Page not found - Céilí Melbourne";
+    document.title = "Page not found - Céilí Perth";
   }, []);
 
   useEffect(() => {

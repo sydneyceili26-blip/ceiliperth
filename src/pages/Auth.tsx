@@ -20,7 +20,7 @@ const Auth = () => {
   const [rememberMe, setRememberMe] = useState(true);
   const [newPassword, setNewPassword] = useState("");
 
-  useEffect(() => { document.title = "Sign in - Céilí Melbourne"; }, []);
+  useEffect(() => { document.title = "Sign in - Céilí Perth"; }, []);
 
   useEffect(() => {
     if (loading) return;

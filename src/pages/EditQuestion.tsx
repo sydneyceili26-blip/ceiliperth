@@ -27,7 +27,7 @@ const EditQuestion = () => {
   const [loading, setLoading] = useState(true);
   const [submitting, setSubmitting] = useState(false);
 
-  useEffect(() => { document.title = "Edit question - Céilí Melbourne"; }, []);
+  useEffect(() => { document.title = "Edit question - Céilí Perth"; }, []);
 
   useEffect(() => {
     if (authLoading || rolesLoading) return;

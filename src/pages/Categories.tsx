@@ -8,7 +8,7 @@ import { JOB_TYPES, ITEM_TYPES, TOP_LEVEL_CATEGORIES } from "@/lib/categories";
 
 const Categories = () => {
   useEffect(() => {
-    document.title = "Browse categories - Céilí Melbourne";
+    document.title = "Browse categories - Céilí Perth";
   }, []);
 
   return (

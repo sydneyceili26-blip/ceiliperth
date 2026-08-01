@@ -38,7 +38,7 @@ const ScamWarning = ({ variant = "default", className = "" }: Props) => {
             <li><strong>Never send money or bond upfront</strong> before you've seen the place or item in person.</li>
             <li>Be wary of deals that seem too good to be true - especially cheap rentals.</li>
             <li>Meet in a public place. Bring a friend if you can.</li>
-            <li>Céilí Melbourne does not verify users - you deal with other people at your own risk.</li>
+            <li>Céilí Perth does not verify users - you deal with other people at your own risk.</li>
           </ul>
         </div>
       </div>

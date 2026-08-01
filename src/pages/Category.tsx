@@ -49,7 +49,7 @@ const Category = () => {
 
   useEffect(() => {
     if (!meta) return;
-    document.title = `${meta.label} - Céilí Melbourne`;
+    document.title = `${meta.label} - Céilí Perth`;
     (async () => {
       setLoading(true);
       const categoryKeys = isHousing ? (sub ? [sub] : HOUSING_SUBS) : [meta.key as CategoryKey];

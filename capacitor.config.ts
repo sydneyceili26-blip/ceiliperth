@@ -1,8 +1,8 @@
 import type { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'com.ceilimelbourne.app',
-  appName: 'Melbourne Céilí',
+  appId: 'com.ceiliperth.app',
+  appName: 'Perth Céilí',
   webDir: 'dist',
   ios: {
     contentInset: 'automatic',

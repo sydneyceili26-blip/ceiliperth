@@ -14,7 +14,7 @@ const Favourites = () => {
   const [items, setItems] = useState<Listing[]>([]);
   const [fetching, setFetching] = useState(true);
 
-  useEffect(() => { document.title = "Your favourites - Céilí Melbourne"; }, []);
+  useEffect(() => { document.title = "Your favourites - Céilí Perth"; }, []);
   useEffect(() => { if (!loading && !user) navigate("/auth"); }, [loading, user, navigate]);
 
   useEffect(() => {

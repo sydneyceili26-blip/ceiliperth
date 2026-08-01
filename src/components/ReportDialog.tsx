@@ -44,7 +44,7 @@ const ReportDialog = ({ listingId }: { listingId: string }) => {
       <DialogContent>
         <DialogHeader>
           <DialogTitle>Report this listing</DialogTitle>
-          <DialogDescription>Help keep Céilí Melbourne safe - tell us what's wrong.</DialogDescription>
+          <DialogDescription>Help keep Céilí Perth safe - tell us what's wrong.</DialogDescription>
         </DialogHeader>
         <div className="space-y-4">
           <div className="space-y-2">

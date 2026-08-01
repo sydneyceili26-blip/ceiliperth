@@ -41,7 +41,7 @@ const RequestDetail = () => {
       const { data } = await supabase.from("requests").select("*").eq("id", id!).maybeSingle();
       setRequest(data);
       if (data) {
-        document.title = `${data.title} - Céilí Melbourne`;
+        document.title = `${data.title} - Céilí Perth`;
         if (data.owner_id) {
           const { data: prof } = await supabase
             .from("profiles").select("avatar_url").eq("id", data.owner_id).maybeSingle();

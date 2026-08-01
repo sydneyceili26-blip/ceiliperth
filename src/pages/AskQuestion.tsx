@@ -22,7 +22,7 @@ const AskQuestion = () => {
   const { user, loading: authLoading } = useAuth();
   const [submitting, setSubmitting] = useState(false);
 
-  useEffect(() => { document.title = "Ask the community - Céilí Melbourne"; }, []);
+  useEffect(() => { document.title = "Ask the community - Céilí Perth"; }, []);
 
   useEffect(() => {
     if (authLoading) return;

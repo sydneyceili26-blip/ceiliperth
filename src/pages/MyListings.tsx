@@ -19,7 +19,7 @@ const MyListings = () => {
   const [fetching, setFetching] = useState(true);
   const [deletingId, setDeletingId] = useState<string | null>(null);
 
-  useEffect(() => { document.title = "My posts - Céilí Melbourne"; }, []);
+  useEffect(() => { document.title = "My posts - Céilí Perth"; }, []);
   useEffect(() => { if (!loading && !user) navigate("/auth"); }, [loading, user, navigate]);
 
   const refresh = async () => {

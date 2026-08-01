@@ -4,7 +4,7 @@ const SiteFooter = () => (
   <footer className="border-t border-border/60 bg-secondary/40">
     <div className="container py-10 text-sm text-muted-foreground">
       <div className="flex flex-col items-start justify-between gap-4 md:flex-row md:items-center">
-        <p className="font-display text-base text-foreground">Céilí Melbourne ☘</p>
+        <p className="font-display text-base text-foreground">Céilí Perth ☘</p>
         <nav className="flex flex-wrap items-center gap-x-5 gap-y-2">
           <Link to="/guide" className="hover:text-foreground">Newcomer's Guide</Link>
           <Link to="/categories" className="hover:text-foreground">Categories</Link>
@@ -14,9 +14,9 @@ const SiteFooter = () => (
           <Link to="/terms" className="hover:text-foreground">Terms</Link>
           <Link to="/privacy" className="hover:text-foreground">Privacy</Link>
         </nav>
-        <p>A welcoming noticeboard for everyone settling into Melbourne - Fáilte, welcome!</p>
+        <p>A welcoming noticeboard for everyone settling into Perth - Fáilte, welcome!</p>
       </div>
-      <p className="mt-6 text-xs text-muted-foreground/60">© {new Date().getFullYear()} Céilí Melbourne™. All rights reserved.</p>
+      <p className="mt-6 text-xs text-muted-foreground/60">© {new Date().getFullYear()} Céilí Perth™. All rights reserved.</p>
     </div>
   </footer>
 );

@@ -39,7 +39,7 @@ const PostRegional = () => {
   const [region, setRegion] = useState<string>("");
   const [images, setImages] = useState<string[]>([]);
 
-  useEffect(() => { document.title = "Post to Regional Work - Céilí Melbourne"; }, []);
+  useEffect(() => { document.title = "Post to Regional Work - Céilí Perth"; }, []);
 
   useEffect(() => {
     if (authLoading) return;

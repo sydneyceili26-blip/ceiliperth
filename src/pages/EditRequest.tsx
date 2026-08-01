@@ -38,7 +38,7 @@ const EditRequest = () => {
   const [loading, setLoading] = useState(true);
   const [submitting, setSubmitting] = useState(false);
 
-  useEffect(() => { document.title = "Edit request - Céilí Melbourne"; }, []);
+  useEffect(() => { document.title = "Edit request - Céilí Perth"; }, []);
 
   useEffect(() => {
     if (authLoading || rolesLoading) return;
@@ -139,7 +139,7 @@ const EditRequest = () => {
 
             <div className="space-y-2">
               <Label htmlFor="suburb">Suburb</Label>
-              <Input id="suburb" name="suburb" maxLength={80} defaultValue={defaults.suburb} placeholder="e.g. Fitzroy" />
+              <Input id="suburb" name="suburb" maxLength={80} defaultValue={defaults.suburb} placeholder="e.g. Subiaco" />
             </div>
 
             <div className="space-y-2">

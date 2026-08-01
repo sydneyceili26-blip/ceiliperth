@@ -24,7 +24,7 @@ const Community = () => {
   const [q, setQ] = useState("");
 
   useEffect(() => {
-    document.title = "Community Q&A - Céilí Melbourne";
+    document.title = "Community Q&A - Céilí Perth";
     (async () => {
       const { data: qs } = await supabase
         .from("questions")
@@ -77,7 +77,7 @@ const Community = () => {
               <div className="flex-1">
                 <h1 className="font-display text-3xl font-bold md:text-4xl">Community Q&amp;A</h1>
                 <p className="mt-1 text-muted-foreground">
-                  Ask the Melbourne community anything - visas, suburbs, jobs, banks, the lot.
+                  Ask the Perth community anything - visas, suburbs, jobs, banks, the lot.
                 </p>
               </div>
               <Button asChild variant="hero" className="hidden sm:inline-flex">

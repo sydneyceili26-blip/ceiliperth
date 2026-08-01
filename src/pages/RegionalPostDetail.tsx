@@ -79,7 +79,7 @@ const RegionalPostDetail = () => {
     const { data, error } = await supabase.from("regional_posts").select("*").eq("id", id).maybeSingle();
     if (error || !data) { setNotFound(true); setLoading(false); return; }
     setPost(data as RegionalPost);
-    document.title = `${(data as RegionalPost).title} - Céilí Melbourne`;
+    document.title = `${(data as RegionalPost).title} - Céilí Perth`;
     const { data: reps } = await supabase
       .from("regional_replies")
       .select("*")

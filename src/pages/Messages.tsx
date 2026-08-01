@@ -56,7 +56,7 @@ const Messages = () => {
   const fileInputRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
-    document.title = "Messages - Céilí Melbourne";
+    document.title = "Messages - Céilí Perth";
   }, []);
 
   useEffect(() => {

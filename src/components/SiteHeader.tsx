@@ -52,8 +52,8 @@ const SiteHeader = () => {
     <header className="sticky top-0 z-40 w-full border-b border-border/60 bg-background/85 backdrop-blur supports-[backdrop-filter]:bg-background/70">
       <div className="container flex h-16 items-center gap-3">
         <Link to="/" className="flex items-center gap-2 font-display text-xl font-bold tracking-tight">
-          <img src="/favicon.png" alt="Céilí Melbourne logo - serif C with shamrock" width={36} height={36} className="h-9 w-9 object-contain" />
-          <span><span className="text-primary">Céilí</span> Melbourne</span>
+          <img src="/favicon.png" alt="Céilí Perth logo - serif C with shamrock" width={36} height={36} className="h-9 w-9 object-contain" />
+          <span><span className="text-primary">Céilí</span> Perth</span>
         </Link>
 
         <nav className="ml-6 hidden items-center gap-1 md:flex">

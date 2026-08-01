@@ -57,7 +57,7 @@ const ListingDetail = () => {
   const activePhoto = photos[activeIdx];
 
   const shareUrl = typeof window !== "undefined" ? window.location.href : "";
-  const shareTitle = listing?.title ?? "Céilí Melbourne listing";
+  const shareTitle = listing?.title ?? "Céilí Perth listing";
 
   const handleShare = async () => {
     if (typeof navigator !== "undefined" && (navigator as any).share) {
@@ -99,7 +99,7 @@ const ListingDetail = () => {
       const { data } = await supabase.from("listings").select("*").eq("id", id).maybeSingle();
       if (data) {
         setListing(data as FullListing);
-        document.title = `${data.title} - Céilí Melbourne`;
+        document.title = `${data.title} - Céilí Perth`;
         if (data.owner_id) {
           const { data: prof } = await supabase
             .from("profiles").select("avatar_url").eq("id", data.owner_id).maybeSingle();

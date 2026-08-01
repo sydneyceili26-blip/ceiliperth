@@ -15,15 +15,15 @@ const HERO_IMAGES: { src: string; position: string }[] = [
   { src: "/hero/1.jpg",  position: "center 60%" },   // Albert Park Lake sunset with palms + skyline
   { src: "/hero/2.jpg",  position: "center 40%" },   // Brighton beach boxes
   { src: "/hero/3.jpg",  position: "center 65%" },   // Great Ocean Road coastal view
-  { src: "/hero/4.jpg",  position: "center center" }, // Melbourne GP (landscape)
+  { src: "/hero/4.jpg",  position: "center center" }, // Perth GP (landscape)
   { src: "/hero/5.jpg",  position: "center 45%" },   // Albert Park Lake dawn reflection
-  { src: "/hero/6.jpg",  position: "center 40%" },   // Melbourne Town Hall / Collins St
+  { src: "/hero/6.jpg",  position: "center 40%" },   // Perth Town Hall / Collins St
   { src: "/hero/7.jpg",  position: "center 40%" },   // Yarra River from bridge
   { src: "/hero/8.jpg",  position: "center 50%" },   // tram on street
   { src: "/hero/9.jpg",  position: "center 35%" },   // concert at Palais Theatre
   { src: "/hero/10.jpg", position: "center 60%" },   // Williamstown rocky beach sunset
   { src: "/hero/11.jpg", position: "center 50%" },   // Albert Park Lake daytime
-  { src: "/hero/12.jpg", position: "center 55%" },   // Port Melbourne/St Kilda sunset
+  { src: "/hero/12.jpg", position: "center 55%" },   // Port Perth/St Kilda sunset
 ];
 
 type FeedItem = Listing & { isRequest?: boolean; isRegional?: boolean };
@@ -42,7 +42,7 @@ const Index = () => {
   }, []);
 
   useEffect(() => {
-    document.title = "Céilí Melbourne - A friendly noticeboard for Melbourne newcomers";
+    document.title = "Céilí Perth - A friendly noticeboard for Perth newcomers";
   }, []);
 
   useEffect(() => {
@@ -95,10 +95,10 @@ const Index = () => {
               ☘ Fáilte · Welcome
             </span>
             <h1 className="mt-5 font-display text-5xl font-bold leading-tight text-white md:text-7xl">
-              <span className="text-white">Melbourne, Sorted</span>
+              <span className="text-white">Perth, Sorted</span>
             </h1>
             <p className="mt-5 text-base text-white/80 md:text-lg">
-              Céilí Melbourne is the one-stop shop for people on holiday visas, permanent residents, and citizens alike - whether you're still at home, just landed, or have been here for years. Find a gaff, find a job, find an event, and everything in between
+              Céilí Perth is the one-stop shop for people on holiday visas, permanent residents, and citizens alike - whether you're still at home, just landed, or have been here for years. Find a gaff, find a job, find an event, and everything in between
             </p>
 
             <form
@@ -208,7 +208,7 @@ const Index = () => {
           <div className="overflow-hidden rounded-3xl bg-gradient-hero p-8 text-primary-foreground shadow-glow md:p-12">
             <div className="grid items-center gap-6 md:grid-cols-[1fr_auto]">
               <div>
-                <h2 className="font-display text-2xl font-bold md:text-3xl">New to Melbourne? Pull up a chair.</h2>
+                <h2 className="font-display text-2xl font-bold md:text-3xl">New to Perth? Pull up a chair.</h2>
                 <p className="mt-2 max-w-xl opacity-90">
                   Whether you're hunting a room, looking for work, or just want to find your people - start here.
                 </p>

@@ -46,7 +46,7 @@ const EditRegionalPost = () => {
   const [loading, setLoading] = useState(true);
   const [submitting, setSubmitting] = useState(false);
 
-  useEffect(() => { document.title = "Edit regional post - Céilí Melbourne"; }, []);
+  useEffect(() => { document.title = "Edit regional post - Céilí Perth"; }, []);
 
   useEffect(() => {
     if (authLoading || rolesLoading) return;

@@ -103,7 +103,7 @@ const Admin = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    document.title = "Admin dashboard - Céilí Melbourne";
+    document.title = "Admin dashboard - Céilí Perth";
   }, []);
 
   const loadReports = async () => {

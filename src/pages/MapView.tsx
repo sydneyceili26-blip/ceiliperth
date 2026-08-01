@@ -37,7 +37,7 @@ const MapView = () => {
   const [filter, setFilter] = useState<CategoryKey | "all">("all");
 
   useEffect(() => {
-    document.title = "Map view - Céilí Melbourne";
+    document.title = "Map view - Céilí Perth";
     (async () => {
       const [{ data: listings }, { data: requests }, { data: coords }] = await Promise.all([
         supabase
@@ -88,7 +88,7 @@ const MapView = () => {
         <section className="container py-8">
           <h1 className="font-display text-3xl font-bold md:text-4xl">Map view</h1>
           <p className="mt-1 text-sm text-muted-foreground">
-            See where listings are around Melbourne. Pins are placed at suburb level.
+            See where listings are around Perth. Pins are placed at suburb level.
           </p>
 
           <div className="mt-5 flex flex-wrap gap-2">
@@ -113,7 +113,7 @@ const MapView = () => {
 
           <div className="relative z-0 isolate mt-6 overflow-hidden rounded-2xl border border-border shadow-soft">
             <div className="h-[70vh] w-full">
-              <MapContainer center={[-37.8136, 144.9631]} zoom={12} scrollWheelZoom className="h-full w-full">
+              <MapContainer center={[-31.9505, 115.8605]} zoom={12} scrollWheelZoom className="h-full w-full">
                 <TileLayer
                   attribution='&copy; <a href="https://carto.com/attributions">CARTO</a>'
                   url="https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png"

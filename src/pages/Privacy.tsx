@@ -5,7 +5,7 @@ import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 
 const Privacy = () => {
-  useEffect(() => { document.title = "Privacy Policy - Céilí Melbourne"; }, []);
+  useEffect(() => { document.title = "Privacy Policy - Céilí Perth"; }, []);
   return (
     <div className="flex min-h-screen flex-col bg-gradient-warm">
       <SiteHeader />
@@ -66,7 +66,7 @@ const Privacy = () => {
 
             <h2>Children</h2>
             <p>
-              Céilí Melbourne is not intended for anyone under 18.
+              Céilí Perth is not intended for anyone under 18.
             </p>
 
             <h2>Contact</h2>

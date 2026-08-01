@@ -1,4 +1,4 @@
-package com.ceilisydney.app;
+package com.ceiliperth.app;
 
 import com.getcapacitor.BridgeActivity;
 

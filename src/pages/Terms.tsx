@@ -5,7 +5,7 @@ import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 
 const Terms = () => {
-  useEffect(() => { document.title = "Terms & Conditions - Céilí Melbourne"; }, []);
+  useEffect(() => { document.title = "Terms & Conditions - Céilí Perth"; }, []);
   return (
     <div className="flex min-h-screen flex-col bg-gradient-warm">
       <SiteHeader />
@@ -20,7 +20,7 @@ const Terms = () => {
           <div className="prose prose-sm mt-8 max-w-none text-foreground">
             <h2>1. Introduction</h2>
             <p>
-              These Terms & Conditions ("Terms") govern your access to and use of Céilí Melbourne
+              These Terms & Conditions ("Terms") govern your access to and use of Céilí Perth
               (the "Platform"), operated from New South Wales, Australia. By creating an account,
               posting a listing, contacting another user, or otherwise using the Platform, you
               agree to be bound by these Terms. If you do not agree, you must not use the Platform.
@@ -33,7 +33,7 @@ const Terms = () => {
               events, sports and wellness activities, and similar categories.
             </p>
             <p>
-              Céilí Melbourne is <strong>only a venue</strong> that connects users with one another.
+              Céilí Perth is <strong>only a venue</strong> that connects users with one another.
               We are not a party to any agreement, transaction, tenancy, employment relationship,
               sale, hire, or other arrangement entered into between users or with any third party,
               and we do not act as an agent, broker, employer, landlord, escrow, or insurer.
@@ -100,7 +100,7 @@ const Terms = () => {
 
             <h2>7. Limitation of liability</h2>
             <p>
-              To the maximum extent permitted by law, Céilí Melbourne, its operators, owners,
+              To the maximum extent permitted by law, Céilí Perth, its operators, owners,
               directors, employees, contractors, agents and affiliates (the "Released Parties")
               exclude all liability for any loss, damage, cost, expense, injury, illness, death,
               claim or demand of any kind - whether direct, indirect, incidental, special,
@@ -142,7 +142,7 @@ const Terms = () => {
 
             <h2>9. Content moderation and account termination</h2>
             <p>
-              <strong>Céilí Melbourne has zero tolerance for objectionable content or abusive users.</strong>{" "}
+              <strong>Céilí Perth has zero tolerance for objectionable content or abusive users.</strong>{" "}
               Content that is harmful, offensive, sexually explicit, hateful, threatening, or
               otherwise objectionable will be removed and the responsible account will be suspended
               or permanently banned. We aim to act on all reports within 24 hours of receipt.
