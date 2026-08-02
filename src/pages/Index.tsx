@@ -12,18 +12,11 @@ import { supabase } from "@/integrations/supabase/client";
 import { useBlockedUsers } from "@/hooks/useBlockedUsers";
 
 const HERO_IMAGES: { src: string; position: string }[] = [
-  { src: "/hero/1.jpg",  position: "center 60%" },   // Albert Park Lake sunset with palms + skyline
-  { src: "/hero/2.jpg",  position: "center 40%" },   // Brighton beach boxes
-  { src: "/hero/3.jpg",  position: "center 65%" },   // Great Ocean Road coastal view
-  { src: "/hero/4.jpg",  position: "center center" }, // Perth GP (landscape)
-  { src: "/hero/5.jpg",  position: "center 45%" },   // Albert Park Lake dawn reflection
-  { src: "/hero/6.jpg",  position: "center 40%" },   // Perth Town Hall / Collins St
-  { src: "/hero/7.jpg",  position: "center 40%" },   // Yarra River from bridge
-  { src: "/hero/8.jpg",  position: "center 50%" },   // tram on street
-  { src: "/hero/9.jpg",  position: "center 35%" },   // concert at Palais Theatre
-  { src: "/hero/10.jpg", position: "center 60%" },   // Williamstown rocky beach sunset
-  { src: "/hero/11.jpg", position: "center 50%" },   // Albert Park Lake daytime
-  { src: "/hero/12.jpg", position: "center 55%" },   // Port Perth/St Kilda sunset
+  { src: "/hero/1.jpg", position: "center 30%" },
+  { src: "/hero/2.jpg", position: "center 55%" },
+  { src: "/hero/3.jpg", position: "center 50%" },
+  { src: "/hero/4.jpg", position: "center 40%" },
+  { src: "/hero/5.jpg", position: "center 40%" },
 ];
 
 type FeedItem = Listing & { isRequest?: boolean; isRegional?: boolean };
