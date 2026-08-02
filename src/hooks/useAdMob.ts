@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 
 const isNative = typeof window !== "undefined" && window.location.protocol === "capacitor:";
-const BANNER_AD_UNIT = "PLACEHOLDER_ADMOB_BANNER_UNIT_PERTH";
+const BANNER_AD_UNIT = "ca-app-pub-5768325702216711/1040824314";
 
 export const useAdMob = () => {
   useEffect(() => {

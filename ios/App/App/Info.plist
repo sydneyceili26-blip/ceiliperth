@@ -58,7 +58,7 @@
 	<key>NSMicrophoneUsageDescription</key>
 	<string>Céilí Perth needs microphone access when recording video for listings.</string>
 	<key>GADApplicationIdentifier</key>
-	<string>PLACEHOLDER_ADMOB_APP_ID_PERTH</string>
+	<string>ca-app-pub-5768325702216711~9957063834</string>
 	<key>NSUserTrackingUsageDescription</key>
 	<string>This identifier will be used to show you more relevant ads.</string>
 	<key>SKAdNetworkItems</key>
