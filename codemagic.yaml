@@ -35,7 +35,7 @@ workflows:
           PROFILES_HOME="$HOME/Library/MobileDevice/Provisioning Profiles"
           mkdir -p "$PROFILES_HOME"
           PROFILE_PATH="$(mktemp "$PROFILES_HOME"/$(uuidgen).mobileprovision)"
-          python3 -c "import base64,os; open('$PROFILE_PATH','wb').write(base64.b64decode(os.environ['DIST_PROVISION_PROFILE']))"
+          python3 -c "import base64,os; open('$PROFILE_PATH','wb').write(base64.b64decode(os.environ['PERTH_PROVISION_PROFILE']))"
           echo "Installed profile at $PROFILE_PATH"
       - name: Set up code signing
         script: xcode-project use-profiles
