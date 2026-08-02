@@ -10,8 +10,8 @@ workflows:
         APP_STORE_CONNECT_ISSUER_ID: "10e891a6-bffb-41bd-add3-a198ed9016b1"
         APP_STORE_CONNECT_KEY_IDENTIFIER: "SCA5JFXA3W"
         BUNDLE_ID: "com.ceiliperth.app"
-        VITE_SUPABASE_URL: "PLACEHOLDER_SUPABASE_URL_PERTH"
-        VITE_SUPABASE_PUBLISHABLE_KEY: "PLACEHOLDER_SUPABASE_ANON_KEY_PERTH"
+        VITE_SUPABASE_URL: "https://tqznlnizvvmmvnlhbokw.supabase.co"
+        VITE_SUPABASE_PUBLISHABLE_KEY: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRxem5sbml6dnZtbXZubGhib2t3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODU2Mzc2MzUsImV4cCI6MjEwMTIxMzYzNX0.2zEi_YHSi90SLUNcR3OyJ3n3XkP58soy6pthA4VCGrk"
       node: latest
       xcode: latest
       cocoapods: default
